@@ -1,0 +1,17 @@
+# Cấu hình riêng từng máy (mật khẩu CSDL...), không đưa lên Git
+config/config.php
+
+# Ảnh người dùng tải lên: giữ thư mục và file chặn chạy PHP, bỏ phần còn lại
+uploads/*
+!uploads/.gitkeep
+!uploads/.htaccess
+
+*.log
+.DS_Store
+
+# VS Code: chỉ chia sẻ danh sách extension
+.vscode/*
+!.vscode/extensions.json
+
+# Script đẩy code lần đầu, không cần đưa lên repo
+push_to_github.bat

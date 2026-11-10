@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "bmewburn.vscode-intelephense-client",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "formulahendry.auto-rename-tag",
+    "mtxr.sqltools"
+  ]
+}
